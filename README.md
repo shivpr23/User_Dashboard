@@ -38,7 +38,7 @@ Clone this repository to your local machine using the following command:
 ```bash
 git clone https://github.com/shivpr23/User_Dashboard.git
 
-2. Install dependencies
+### 2. Install dependencies
 Navigate to the project folder and install the necessary dependencies:
 
 ```bash
