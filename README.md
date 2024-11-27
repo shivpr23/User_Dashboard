@@ -43,7 +43,6 @@ git clone https://github.com/shivpr23/User_Dashboard.git
 Navigate to the project folder and install the necessary dependencies:
 
 ```bash
-Copy code
 cd user-admin-dashboard
 npm install
 ```
@@ -53,7 +52,6 @@ npm install
 Start the development server using Vite:
 
 ```bash
-Copy code
 npm run dev
 ```
 By default, the app will be accessible at http://localhost:5173.
@@ -63,7 +61,6 @@ By default, the app will be accessible at http://localhost:5173.
 To create a production build of the application, run:
 
 ```bash
-Copy code
 npm run build
 ```
 This will generate optimized files for deployment in the dist/ folder.
