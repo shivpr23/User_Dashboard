@@ -23,7 +23,7 @@ This project is a **User Admin Dashboard** built with **Vite** and **React**. Th
 
 Follow these steps to set up the project locally on your machine:
 
-### Prerequisites
+## Prerequisites
 
 Before starting, make sure you have the following installed on your system:
 
@@ -31,14 +31,14 @@ Before starting, make sure you have the following installed on your system:
 - **npm** (or Yarn, if preferred)
 - **Vite** (for project bundling)
 
-### 1. Clone the repository
+## 1. Clone the repository
 
 Clone this repository to your local machine using the following command:
 
 ```bash
 git clone https://github.com/shivpr23/User_Dashboard.git
 ```
-### 2. Install dependencies
+## 2. Install dependencies
 
 Navigate to the project folder and install the necessary dependencies:
 
@@ -47,7 +47,7 @@ Copy code
 cd user-admin-dashboard
 npm install
 ```
-### 3. Run the development server
+## 3. Run the development server
 
 
 Start the development server using Vite:
@@ -58,7 +58,7 @@ npm run dev
 ```
 By default, the app will be accessible at http://localhost:5173.
 
-### 4. Build for production
+## 4. Build for production
 
 To create a production build of the application, run:
 
@@ -68,31 +68,31 @@ npm run build
 ```
 This will generate optimized files for deployment in the dist/ folder.
 
-## Explanation of Features
+# Explanation of Features
 
-### 1. Login Section
+## 1. Login Section
 
 The login page allows an admin to log into the dashboard by selecting a user from a predefined list. The selected user’s credentials are used to authenticate the admin and grant access to the dashboard.
 Admins can choose from a list of users (with roles).
 After selecting a user, the login will proceed, and the user will be redirected to the dashboard.
 
-### 2. User Management
+## 2. User Management
 
 Once logged in, the admin will have access to a list of all users. Each user’s details, including their name and current role, will be displayed.
 Admin can click on any user to view more details or update their role.
 
-### 3. Role Management
+## 3. Role Management
 
 Admins can modify the roles of users within the dashboard. The roles available may include:
 Admin: Full access to the application and all its features.
 User: Limited access, based on the predefined permissions.
 The admin can select a user and change their role with ease.
 
-### 4. Logout
+## 4. Logout
 
 The app includes a logout button that allows the admin to securely log out of the dashboard and return to the login screen.
 
-### 5. UI and Design
+## 5. UI and Design
 
 The user interface is designed for clarity and simplicity, with the goal of providing a seamless experience for admins when managing users. It uses React components for dynamic rendering and state management, ensuring smooth interactions.
 
