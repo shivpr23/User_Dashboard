@@ -1,0 +1,63 @@
+.form-container {  
+    max-width: 400px;  
+    margin: 5rem auto;  
+    padding: 2rem;  
+    background-color: #f9f9f9; /* Light background for contrast */  
+    border-radius: 8px;  
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);  
+    transition: box-shadow 0.3s ease;  
+  }  
+  
+  .form-container:hover {  
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.15); /* Adds depth on hover */  
+  }  
+  
+  .form-container h1 {  
+    text-align: center;  
+    margin-bottom: 1.5rem;  
+    color: #34495e; /* Darker text for title */  
+  }  
+  
+  .form-container label {  
+    display: block;  
+    margin-bottom: 0.5rem;  
+    font-weight: bold;  
+    color: #34495e; /* Consistent text color */  
+  }  
+  
+  .form-container select,  
+  .form-container input {  
+    width: 100%;  
+    padding: 0.8rem;  
+    margin-bottom: 1rem;  
+    border: 1px solid #bdc3c7; /* Subtle border color */  
+    border-radius: 4px;  
+    font-size: 1rem;  
+    transition: border 0.3s ease; /* Smooth transition */  
+  }  
+  
+  .form-container select:focus,  
+  .form-container input:focus {  
+    border: 1px solid #2980b9; /* Focus border color */  
+    outline: none; /* Remove default outline */  
+  }  
+  
+  .form-container button {  
+    width: 100%;  
+    padding: 0.8rem;  
+    background-color: #2980b9; /* Attractive button color */  
+    color: white;  
+    font-size: 1rem;  
+    border: none;  
+    border-radius: 4px;  
+    transition: background-color 0.3s ease; /* Smooth transition */  
+  }  
+  
+  .form-container button:hover {  
+    background-color: #1a6a92; /* Darker on hover */  
+  }  
+  
+  .form-container p {  
+    text-align: center;  
+    margin-top: 1rem;  
+  } 
